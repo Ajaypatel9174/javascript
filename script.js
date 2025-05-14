@@ -153,39 +153,100 @@
 // person.greet();
 
 
+//  const person={
+//     name : "jhon",
+//     age : 45,
+//     isEligible : true,
+//     addres :{
+//         state : "mp",
+//         country : "india"
+//     },
+
+
+//  };
+//  //update
+//  person.age = 67;
+//  //add
+//  person.hasAddress = true;
+//  console.log(person);
+
+
+//spread operater(...)
+// const obj1={
+
+//     a:1,
+//     b:2,
+// };
+// const obj2 ={
+//    c:3,
+//    d:4,
+
+// };
+
+// const obj3={...obj1,...obj2};
+
+// console.log(obj3);
+
+//array of objects
+
+// const student =[
+
+// {name:"ram",id:1,cource:"frontend"},
+// {name:"rohit",id:2,cource:"backend"},
+// {name:"rishav",id:3,cource:"fullstack"},
+// {name:"gaurav",id:4,cource:"python"},
+
+// ];
+
+// console.log(student[0].cource);
+// console.log(student[1].name + " "+student[1].id+" "+student[1].cource)
+// console.log(`${student[2].name}${student[2].id}${student[2].cource}`);
+    
+
+const car ={
+
+    color:"red",
+    model:2024,
+    brand:"ford",
 
 
 
 
+};
+//const a = car.color;
+//const b = car.model
+
+const { color,model,brand} = Car;
+
+console.log(color,model,brand);
+
+const {color:a,model:b,brand:c}=car;
+
+console.log(a,b,c);
+
+//object to json string 
+
+const user ={
+
+name:"jhon",
+id:1,
+age:32,
+city:"bhopal"
+};
+console.log(user);
+
+const data = JSON.stringify(user);
+console.log(data);
+
+//json string to object
+const updatedData= JSON.parse(data);
+console.log(updatedData);
 
 
-// let d = new Date();
-// console.log(d);
+const liberary =[
 
-
-// let arr = ["mubbai","delhi","goa"];
-
-// arr.reverse();
-
-// console.log(arr);
+title
 
 
 
-
-// let sum =[1+2+3+4+5+6+7+8+9+10];
-// sum.join
-// console.log(sum);
-
-const sum1 =[1,2,3,4,5,6];
-
-
-console.log();
-
-
-
-
-
-
-
-
-
+]
