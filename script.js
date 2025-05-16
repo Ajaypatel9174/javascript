@@ -213,8 +213,8 @@ const car ={
 
 
 };
-//const a = car.color;
-//const b = car.model
+const ( a )= car.color;
+const ( b )= car.model;
 
 const { color,model,brand} = Car;
 
@@ -226,27 +226,66 @@ console.log(a,b,c);
 
 //object to json string 
 
-const user ={
+// const user ={
 
-name:"jhon",
-id:1,
-age:32,
-city:"bhopal"
-};
-console.log(user);
+// name:"jhon",
+// id:1,
+// age:32,
+// city:"bhopal"
+// };
+// console.log(user);
 
-const data = JSON.stringify(user);
-console.log(data);
+// const data = JSON.stringify(user);
+// console.log(data);
 
 //json string to object
-const updatedData= JSON.parse(data);
-console.log(updatedData);
-
-
-const liberary =[
-
-title
+// const updatedData= JSON.parse(data);
+// console.log(updatedDate);
 
 
 
-]
+
+// const library = [
+//   {
+//     title: "jungle book",
+//     author: "rudyard kipling",
+//     status: {
+//       own: true,
+//       reading: false,
+//       read: false,
+//     },
+
+
+//   },
+
+//   {
+//     title: "jungle book",
+//     author: "rudyard kipling",
+//     status: {
+//       own: true,
+//       reading: false,
+//       read: false,
+//     },
+
+
+//   }
+//   ];
+
+//   library[0].status.read =true;
+//   library[1].status.read =true;
+//   library[2].status.read =true;
+
+
+
+
+// const{title:firstBook} = library[0];
+
+// console.log(firstBook);
+
+// const libraryJSON = JSON.stringify(library);
+// console.log(libraryJSON);
+
+
+
+
+

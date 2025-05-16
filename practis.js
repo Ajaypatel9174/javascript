@@ -1,118 +1,224 @@
-// let a =5;
-// let b =10
-// console.log(a+b)
+// // let a =5;
+// // let b =10
+// // console.log(a+b)
 
-// let age = 24;
-// console.log(age)
+// // let age = 24;
+// // console.log(age)
 
-// const product ={
+// // const product ={
 
-//     titel: "ball pen",
-//     rating: 4,
-//     price:270,
-//     offer:5,
-// };
-// console.log(product)
+// //     titel: "ball pen",
+// //     rating: 4,
+// //     price:270,
+// //     offer:5,
+// // };
+// // console.log(product)
 
-// const profil ={
-//     username:"ajay patel",
-//     follower:200,
-//     following:123,
-//     isfollow:false
-
-
-// };
-// console.log(profil)
-
-//Airthemetic operaters
+// // const profil ={
+// //     username:"ajay patel",
+// //     follower:200,
+// //     following:123,
+// //     isfollow:false
 
 
-// let  a = 5;
-// let b =  2;
+// // };
+// // console.log(profil)
 
-// console.log("a+b=",a+b);
-
-//unary operter
-
-// let a = 5;
-// let b = 6;
-
-// console.log("a","b",a++);
-// console.log(a++)
-
-//Assigment operatar
+// //Airthemetic operaters
 
 
-// let a = 5;
-// let b = 6;
+// // let  a = 5;
+// // let b =  2;
 
-// a += 4;
-// console.log(a);
+// // console.log("a+b=",a+b);
 
-//comparision operater
+// //unary operter
+
+// // let a = 5;
+// // let b = 6;
+
+// // console.log("a","b",a++);
+// // console.log(a++)
+
+// //Assigment operatar
 
 
-// let a = 4;
-// let b = 3;
+// // let a = 5;
+// // let b = 6;
 
-// console.log("a==b",a==b);
+// // a += 4;
+// // console.log(a);
 
-//Logical operater
+// //comparision operater
 
-// let a = 5;
-// let b = 4;
 
-// let cond1 = a > b;
-// let cond2 = a === 4;
+// // let a = 4;
+// // let b = 3;
 
-// console.log(cond1  && cond2);
+// // console.log("a==b",a==b);
 
-//conditional statment
+// //Logical operater
 
-// let age = 13;
+// // let a = 5;
+// // let b = 4;
 
-// if (age > 18){
+// // let cond1 = a > b;
+// // let cond2 = a === 4;
 
-// console.log("you are vote");
+// // console.log(cond1  && cond2);
+
+// //conditional statment
+
+// // let age = 13;
+
+// // if (age > 18){
+
+// // console.log("you are vote");
+
+
+// // }
+// // if(age<18){
+
+// //     console.log("you can not vote")
+// // }
+
+
+
+// // let num = 10;
+
+// // if(num%2===0){
+// //     console.log("even")
+
+// // }
+// // else{
+// //     console.log("odd")
+// // }
+
+
+// // let age = 18;
+
+// // let result  = age >= 18 ? "adult" : "not adult";
+
+// // console.log(result);
+
+// // let num = prompt("enter a num");
+
+
+// // if (num % 5 === 0) {
+// //     console.log(num, "multiple");
+// // }
+// // else {
+// //     console.log(num, "not multiple");
+// // }
+
+// // let length = prompt("enter your lenghth");
+
+// // let bridth = prompt("enter your bridth");
+
+// // console.log(length*bridth);
+
+
+// //Q1
+// let person = {name:"Alice",age:25,city:"Delhi"}
+// console.log(person.name);
+// console.log(person.age);
+
+// //Q2
+
+
+// let user ={ username:"helok",email:"hellogmail.com"};
+// user.country="india"
+// console.log(user);
+
+// //Q3
+// let account ={id:1,status:"active"};
+// account.status="inactive";
+// console.log(account);
+
+// //Q4
+// // let profil ={name:"hello", age: = 30};
+// // console,log(profile.email);
+// //Q5
+
+// let color=["red","green"]
+// color.push("blue")
+// console.log(color);
+
+// //Q6
+
+// let fruits=["apple","banana","orange"];
+// fruits.pop("orange")
+// console.log(fruits);
+
+// //Q7
+
+// let task=["wake up","brush","eat"];
+// task.shift("wake up")
+// console.log(task);
+
+// //Q8
+// let steps =["step1","step2"];
+// steps.unshift("start")
+// console.log(steps);
+
+// //Q9
+// let nums =[10,20,30,40,50];
+// let num =nums.slice(1,3);
+// console.log(num);
+
+// //Q10
+// let letters=["a","b","c","d"];
+// letters.splice(1,2)
+// console.log(letters);
+
+// function Demo (){
+
+
+// console.log("hello function");
 
 
 // }
-// if(age<18){
 
-//     console.log("you can not vote")
-// }
+// Demo()
 
 
+// wAp to take a input from user check num odd or even using function
 
-// let num = 10;
+// num=prompt("enter a num")
 
-// if(num%2===0){
-//     console.log("even")
+// function Demo(){
 
-// }
-// else{
+//     if (num%2!=0){
 //     console.log("odd")
+//     }
+//     else{ console.log("even")
+//     }
+        
+    
+
+
+
+
 // }
+// Demo()
+
+// WAp to take input from user and print reverse table of that number
 
 
-// let age = 18;
 
-// let result  = age >= 18 ? "adult" : "not adult";
-
-// console.log(result);
-
-// let num = prompt("enter a num");
+function Demo(){
+    num=prompt("enter a num")
 
 
-// if (num % 5 === 0) {
-//     console.log(num, "multiple");
-// }
-// else {
-//     console.log(num, "not multiple");
-// }
+    i=10
+    while (i>0){
 
-let length = prompt("enter your lenghth");
+        console.log(num,"x",i,"a",num*i)
+        i--
+    }
 
-let bridth = prompt("enter your bridth");
 
-console.log(length*bridth);
+
+
+}
+Demo()
