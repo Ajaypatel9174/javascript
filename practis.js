@@ -205,20 +205,38 @@
 // WAp to take input from user and print reverse table of that number
 
 
-
-function Demo(){
-    num=prompt("enter a num")
-
-
-    i=10
-    while (i>0){
-
-        console.log(num,"x",i,"a",num*i)
-        i--
-    }
+//table print n number
+// function Demo(){
+//     num=prompt("enter a num")
 
 
+//     i=10
+//     while (i>0){
 
+//         console.log(num,"x",i,"a",num*i)
+//         i--
+//     }
+
+
+
+
+// }
+// // Demo()
+// function name(){
+
+//  let name =(prompt("enter name"))
+
+// console.log("hello" $(name));
+
+// }
+// name();
+
+
+
+function display2(){
+
+return "hello"
 
 }
-Demo()
+let result = display2();
+console.log(result);

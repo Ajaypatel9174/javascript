@@ -84,15 +84,15 @@
 // let full = [fruits,ve]
 
 
-// //spread operater (...)
-// //it copies a part of an array or a complete arraytoa another array
-// const num1 = [10,20,30,40,50];
+//spread operater (...)
+//it copies a part of an array or a complete arraytoa another array
+const num1 = [10,20,30,40,50];
 
-// const num2 = [10,20,30,40,50];
+const num2 = [10,20,30,40,50];
 
-// const num3 = [...num1,...num3];
+const num3 = [...num1,...num3];
 
-// console.log(num3);
+console.log(num3);
 
 
 //isArray , .form
@@ -108,8 +108,8 @@
 
 // const arr = [1,2,3,4,5,6,7,8,9];
 
-//const a = arr[0];
-//const b = arr[1];
+// const a = arr[0];
+// const b = arr[1];
 
 // const [a,b,c,d ...rest] = arr;
 // console.log(a,b,c,d);
@@ -203,26 +203,26 @@
 // console.log(`${student[2].name}${student[2].id}${student[2].cource}`);
     
 
-const car ={
+// const car ={
 
-    color:"red",
-    model:2024,
-    brand:"ford",
-
-
+//     color:"red",
+//     model:2024,
+//     brand:"ford",
 
 
-};
-const ( a )= car.color;
-const ( b )= car.model;
 
-const { color,model,brand} = Car;
 
-console.log(color,model,brand);
+// };
+// const ( a )= car.color;
+// const ( b )= car.model;
 
-const {color:a,model:b,brand:c}=car;
+// const { color,model,brand} = Car;
 
-console.log(a,b,c);
+// console.log(color,model,brand);
+
+// const {color:a,model:b,brand:c}=car;
+
+// console.log(a,b,c);
 
 //object to json string 
 
@@ -259,8 +259,8 @@ console.log(a,b,c);
 //   },
 
 //   {
-//     title: "jungle book",
-//     author: "rudyard kipling",
+//     title: "killer",
+//     author: "kipling",
 //     status: {
 //       own: true,
 //       reading: false,
