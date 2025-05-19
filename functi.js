@@ -55,18 +55,18 @@
 // qube1(5);
 
 
-// function user1(person){
-//     console.log(`person name is ${person.name} and age is ${person.age}`)
-// }
+function user1(person){
+    console.log(`person name is ${person.name} and age is ${person.age}`)
+}
 
-// user1({
+user1({
 
-// name : "jhon",
-// age :    23,
+name : "jhon",
+age :    23,
 
 
 
-// });
+});
 
 //function expression
 

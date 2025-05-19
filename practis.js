@@ -233,10 +233,44 @@
 
 
 
-function display2(){
+// function display2(){
 
-return "hello"
+// return "hello"
 
-}
-let result = display2();
-console.log(result);
+// }
+// let result = display2();
+// console.log(result);
+
+
+
+// // Q1
+// function oddeven(){
+//     let num=Number.parseInt(prompt("enter a number"));
+//     if (num%2!==0){
+//         console,log(`${num} is odd number`);
+//         }
+
+//     else{
+//         console.log(`${num} is even number`);
+
+//     }
+// }
+// // Q2
+// let obj={name:"ashu",age:40,city:"bhopal"};
+// console.log(obj.name);
+// // Q3
+
+// let obj1={name:"ashu",age:40,city:"bhopal",salary:90};
+// console.log(obj1)
+
+
+// Q4
+const product={
+
+name:"jetter pan",
+price:230,
+rating:5,
+name:"ajay",
+
+};
+console.log(product.name)
