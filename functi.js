@@ -55,18 +55,18 @@
 // qube1(5);
 
 
-function user1(person){
-    console.log(`person name is ${person.name} and age is ${person.age}`)
-}
+// function user1(person){
+//     console.log(`person name is ${person.name} and age is ${person.age}`)
+// }
 
-user1({
+// user1({
 
-name : "jhon",
-age :    23,
+// name : "jhon",
+// age :    23,
 
 
 
-});
+// });
 
 //function expression
 
@@ -93,12 +93,48 @@ age :    23,
 
 //arrow function
 
-let myfunction2=()=>{
+// let myfunction2=()=>{
 
 
-console.log("this is an arrow function")
+// console.log("this is an arrow function")
 
 
 
-}
-myfunction2();
+// }
+// myfunction2();
+
+
+
+//life (immediatley invoked function)
+
+
+// (
+
+// function(){
+
+// var x = "hello";
+// console.log(x);
+
+
+// }
+
+// )();
+
+(
+    function(){
+        var name="ajay";
+        var cource="python";
+        var age=24;
+        console.log(name);
+        console.log(cource);
+        console.log(age);
+    }
+)();
+
+//web pagees in the loded in the browser it converts the htnl document into dom (document object model)
+//dom is a tree of elements in which all the element are treeted as objects 
+
+//with the object model is java script grts all the power it needs to creat dynamic html
+
+//html dom method are action you can perform (on html elements).
+//html dom properties are values (of html elements ) that you can set or change

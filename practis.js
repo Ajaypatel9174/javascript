@@ -265,12 +265,28 @@
 
 
 // Q4
-const product={
+// function sumArray (){
 
-name:"jetter pan",
-price:230,
-rating:5,
-name:"ajay",
+// let array=[1,2,3,4,5,6,7,8,9,10];
+// let sum=0;
+// for (let i=0;i<10;i++){
 
-};
-console.log(product.name)
+//    sum=array[i]+sum;
+// }
+
+
+
+// console.log(sum)
+
+// }
+// sumArray();
+
+// Q5
+function areaOfCircel(r){
+
+const pi=3.14;
+return pi*r*r;
+
+}
+console.log()
+areaOfCircel(7)
