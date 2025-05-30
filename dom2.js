@@ -13,7 +13,7 @@ function change(){
      input.value="delhi";
 }
 
-h
+
 function change1(){
 
      let h1=document.getElementById("myin").value;
