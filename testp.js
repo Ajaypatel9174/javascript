@@ -13,7 +13,6 @@ console.log(array);
 
 
 array=[45,65,67,34];
-
 console.log(array.includes(34));
 
 

@@ -127,7 +127,7 @@
 // //Q2
 
 
-// let user ={ username:"helok",email:"hellogmail.com"};
+// let user ={ username:"hello",email:"hellogmail.com"};
 // user.country="india"
 // console.log(user);
 
@@ -138,7 +138,7 @@
 
 // //Q4
 // // let profil ={name:"hello", age: = 30};
-// // console,log(profile.email);
+// // console.log(profile.email);
 // //Q5
 
 // let color=["red","green"]
@@ -248,7 +248,7 @@
 // function oddeven(){
 //     let num=Number.parseInt(prompt("enter a number"));
 //     if (num%2!==0){
-//         console,log(`${num} is odd number`);
+//         console.log(`${num} is odd number`);
 //         }
 
 //     else{
@@ -283,11 +283,11 @@
 // sumArray();
 
 // Q5
-function areaOfCircel(r){
+// function areaOfCircel(r){
 
-const pi=3.14;
-return pi*r*r;
+// const pi=3.14;
+// return pi*r*r;
 
-}
-console.log()
-areaOfCircel(7)
+// }
+// console.log()
+// areaOfCircel(7)

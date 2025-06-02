@@ -10,7 +10,7 @@
 // }
 // display1();
 
-//return with no parameter
+// return with no parameter
 
 
 // function display2(){
@@ -120,16 +120,16 @@
 
 // )();
 
-(
-    function(){
-        var name="ajay";
-        var cource="python";
-        var age=24;
-        console.log(name);
-        console.log(cource);
-        console.log(age);
-    }
-)();
+// (
+//     function(){
+//         var name="ajay";
+//         var cource="python";
+//         var age=24;
+//         console.log(name);
+//         console.log(cource);
+//         console.log(age);
+//     }
+// )();
 
 //web pagees in the loded in the browser it converts the htnl document into dom (document object model)
 //dom is a tree of elements in which all the element are treeted as objects 

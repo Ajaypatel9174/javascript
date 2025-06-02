@@ -86,13 +86,13 @@
 
 //spread operater (...)
 //it copies a part of an array or a complete arraytoa another array
-const num1 = [10,20,30,40,50];
+// const num1 = [10,20,30,40,50];
 
-const num2 = [10,20,30,40,50];
+// const num2 = [10,20,30,40,50];
 
-const num3 = [...num1,...num3];
+// const num3 = [...num1,...num3];
 
-console.log(num3);
+// console.log(num3);
 
 
 //isArray , .form
@@ -116,8 +116,8 @@ console.log(num3);
 // console,log(rest);
 
 // const arr =[1,2,3,4,5];
-// arr.push(6);
-// arr.unshift(0)
+// // arr.push(6);
+// // arr.unshift(0)
 // arr.reverse();
 // console.log(arr);
 
@@ -125,7 +125,7 @@ console.log(num3);
 // const arr2 =[5,6,7,8,9,10];
 // arr1.pop();
 // const  arr3=[...arr1,...arr2];
-// console.log(arr3);
+// console.log(arr1);
 
 //object literal
 

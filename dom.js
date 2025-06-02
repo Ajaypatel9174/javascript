@@ -11,41 +11,41 @@
 // let h1=document.querySelector(".head");
 // console.log(h1);
 
-// let h1=document.getElementById("demo");
+let h1=document.getElementById("demo");
 
-// h1.innerText="hello world";
+h1.innerText="hello world";
 
-// h1.innerHTML=`
-// <table border="2px">
+h1.innerHTML=`
+<table border="2px">
 
-// <tr >
+<tr >
 
-// <th>name</th>
-// <th>age</th>
-// </tr>
-// <tr>
+<th>name</th>
+<th>age</th>
+</tr>
+<tr>
 
-// <td>ajay</td>
-// <td>24</td>
-// </tr>
-// <tr>
+<td>ajay</td>
+<td>24</td>
+</tr>
+<tr>
 
-// <td>rohan</td>
-// <td>26</td>
-// </tr>
-
-
-
-// </table>
-
-// `;
+<td>rohan</td>
+<td>26</td>
+</tr>
 
 
-// let name = prompt("enter a name")
 
-// document.getElementById("demo2").innerText=name;
+</table>
 
-// let img=document.getElementById("myimg");
-// img.src="burger2.jfif";
+`;
+
+
+let name = prompt("enter a name")
+
+document.getElementById("demo2").innerText=name;
+
+let img=document.getElementById("myimg");
+img.src="burger2.jfif";
 
 

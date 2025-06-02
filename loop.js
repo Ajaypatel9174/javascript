@@ -4,12 +4,15 @@
 
 
 // for (let i=1;i<100;i++){
+   
 //     if (i%2==0){
+   
 
-//       console.log(i);
+//      console.log(i);
 
 //     }
-//     i++;
+      
+   
 // }
         
 
@@ -43,7 +46,7 @@
 
 // for (let x in person){
 //     console.log(person[x]);
-// }
+// } 
 
 
 
@@ -216,16 +219,16 @@
 
 //reduce method
 
-const numbers=[123,4,456];
-const value=numbers.reduce(myfunction);
-function myfunction(total,num){
-   return total + num;
-}
+// const numbers=[123,4,456];
+// const value=numbers.reduce(myfunction);
+// function myfunction(total,num){
+//    return total + num;
+// }
 
-console.log(value);
+// console.log(value);
 
-const array=[12,34,45];
-for let i=1;i<array;i++;
+// const array=[12,34,45];
+// for let i=1;i<array;i++;
 
 
 
