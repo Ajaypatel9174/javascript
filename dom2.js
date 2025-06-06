@@ -21,7 +21,7 @@ function change1(){
 
     
 }
-//the addEventlistener() method attaches an event andler to the specified element.
+//the addEventlistener() method attaches an event andler to the specified element
 
 let button=document.getElementById("btn")
 button.addEventListener("click",function(){       

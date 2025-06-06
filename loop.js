@@ -228,7 +228,8 @@
 // console.log(value);
 
 // const array=[12,34,45];
-// for let i=1;i<array;i++;
+// for let i=1;i<array;i++; 
+                                        
 
 
 

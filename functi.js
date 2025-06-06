@@ -15,13 +15,12 @@
 
 // function display2(){
 
-// return "hello"
+// return "hello" 
 
 // }
-
 // let result = display2();
 // console.log(result);
-// alert(result);
+// alert(resulta
 
 //parametre with no return 
 // function display3(x,y){
@@ -40,7 +39,7 @@
 // return x*y;
 // }
 
-// let ans = display4(10,20);
+// let ans = display4(10,20);menjbvj
 // console.log(ans);
 
 //a function that  will print 

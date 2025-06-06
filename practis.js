@@ -291,3 +291,14 @@
 // }
 // console.log()
 // areaOfCircel(7)
+function dis(){
+
+name:"ajay";
+cource:"java";
+age:"24";
+
+
+
+console.log();
+}
+dis()

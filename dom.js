@@ -47,5 +47,9 @@ document.getElementById("demo2").innerText=name;
 
 let img=document.getElementById("myimg");
 img.src="burger2.jfif";
+ 
+
+
+
 
 
