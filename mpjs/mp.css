@@ -1,0 +1,32 @@
+.cal{
+    background-color: bisque;
+    border-radius: 20px;
+    /* text-decoration: underline; */
+    font-style: italic;
+    text-align: center;
+    
+    border: solid black;
+    cursor: pointer;
+    
+   width: 30%;
+   height: 500px;
+   font-size: 25px;
+    
+    
+
+
+
+
+
+}
+.eql{
+    background-color: green ;
+    text-decoration: blueviolet;
+}
+.tr{
+    background-color: burlywood;
+
+   
+}
+
+
