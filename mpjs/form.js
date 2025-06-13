@@ -68,6 +68,7 @@ else if(pass!=cpass){
 
 
 
+
 else if(!(pass.match(/[12345667890]/)&&
     pass.match(/[@#$%^&*()]/)&&
     pass.match(/[a-z]/)&&
