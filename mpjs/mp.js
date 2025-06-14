@@ -17,13 +17,12 @@ let res=()=>{
     screen.innerHTML=store
 }
 
+
 let del=()=>{
 
     let screen=document.querySelector("#display")
-
-    store=store.slice(0,-1)
-
-    screen.innerHTML=store
+    tore=store.slice(0,-1)
+     screen.innerHTML=store
     
 
 }
@@ -31,7 +30,6 @@ let del=()=>{
 let ac=()=>{
 
 let screen=document.querySelector("#display")
-
 store=""
 screen.innerHTML=store
 }

@@ -10,6 +10,7 @@ let validate=()=>{
       errnumber.innerHTML=""
 
 
+
     if(Name==""){
         errname.innerHTML="plese enter name"
         return false
