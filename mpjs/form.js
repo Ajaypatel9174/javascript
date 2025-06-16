@@ -79,3 +79,14 @@ else if(!(pass.match(/[12345667890]/)&&
 }
 
 }
+
+else if(!(pass.match(/[12345667890]/)&&
+    pass.match(/[@#$%^&*()]/)&&
+    pass.match(/[a-z]/)&&
+    pass.match(/[A-Z]/)
+)){
+    errcpass.innerHTML="plese enter strong password"
+    return false
+}
+
+}

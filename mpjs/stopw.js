@@ -1,12 +1,12 @@
-let num=0;
-let intial;
+// let num=0;
+// let intial;
 
-const startTime=()=>{
-        intial=setInterval(()=>{
-            console.log(num++);
+// const startTime=()=>{
+//         intial=setInterval(()=>{
+//             console.log(num++);
 
-        },1000);
-}
-const stopTime=()=>{
-       clearInterval(intial);
-}
+//         },1000);
+// }
+// const stopTime=()=>{
+//        clearInterval(intial);
+// }

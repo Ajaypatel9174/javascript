@@ -1,3 +1,17 @@
-.stop{
-    border: 1px;
+
+
+.watch{
+
+    border: 1px solid black;
+    height: 100px;
+    width: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: brown;
+    align-items: center;
+}
+body{
+    display: flex;
+    justify-content: center;
 }
