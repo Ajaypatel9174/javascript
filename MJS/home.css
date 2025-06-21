@@ -1,0 +1,20 @@
+.section{
+    background-color: aliceblue;
+    border: solid black 1px;
+    height: 100vh;
+    width: 100%;
+  display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    /* background-color: red; */
+}
+
+.div{
+    
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    background-color: yellowgreen;
+    
+}
